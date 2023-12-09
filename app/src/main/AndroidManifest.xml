@@ -18,26 +18,29 @@
         android:required="true" />
 
     <application
-        android:requestLegacyExternalStorage="true"
-        android:usesCleartextTraffic="true"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AplikasiAbsensi"
+        android:usesCleartextTraffic="true"
         tools:targetApi="m">
         <activity
-            android:name="com.example.absensi.view.history.HistoryActivity"
+            android:name=".activity_register"
             android:exported="false" />
         <activity
-            android:name="com.example.absensi.view.absen.AbsenActivity"
+            android:name=".view.history.HistoryActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.absensi.view.main.MainActivity"
+            android:name=".view.absen.AbsenActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.absensi.view.login.LoginActivity"
+            android:name=".view.main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

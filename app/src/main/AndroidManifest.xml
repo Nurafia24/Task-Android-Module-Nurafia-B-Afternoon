@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.azhar.absensi">
+    package="com.example.absensi">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -28,16 +28,16 @@
         android:theme="@style/Theme.AplikasiAbsensi"
         tools:targetApi="m">
         <activity
-            android:name=".view.history.HistoryActivity"
+            android:name="com.example.absensi.view.history.HistoryActivity"
             android:exported="false" />
         <activity
-            android:name=".view.absen.AbsenActivity"
+            android:name="com.example.absensi.view.absen.AbsenActivity"
             android:exported="false" />
         <activity
-            android:name=".view.main.MainActivity"
+            android:name="com.example.absensi.view.main.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".view.login.LoginActivity"
+            android:name="com.example.absensi.view.login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
